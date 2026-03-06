@@ -155,3 +155,14 @@ console.log(fruits);
 //  Now Start Array manipulation powerful tools is slice(), splice(), reverse(), sort()
 
 let numbers = [10,20,30];
+let numbers = [10,20,30];
+numbers.push(40);
+console.log(numbers);
+
+numbers.unshift(5);
+console.log(numbers);
+
+numbers.pop()
+console.log(numbers);
+
+console.log(numbers.includes(20));
