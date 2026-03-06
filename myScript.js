@@ -91,3 +91,67 @@ for(let i = 0; i < numbers.length; i++){
 }
 console.log("Even count:", count);
 
+
+
+
+
+
+
+
+let arr = [4,9,2,11,6];
+let max = arr[0];
+
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] > max){
+        max = arr[i];
+    }
+}
+console.log(`Largest Number is: ${max}`);
+
+
+let arr = [4,9,2,11,6];
+let min = arr[0];
+
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] < min){
+        min = arr[i];
+    }
+}
+console.log(`Smallest Number is: ${min}`);
+
+
+let arr = [4,9,2,11,6];
+let sum = 0;
+
+for(let i = 0; i < arr.length; i++){
+    sum += arr[i];
+}
+console.log(`Total Number Sum is: ${sum}`);
+
+
+
+//  Now Start Array Methods pop, push, shift, unshift, includes
+
+let fruits = ["apple","banana"];
+fruits.push("mango");                   // Add the last values in array use push methods.
+console.log(fruits);
+
+let fruits = ["apple","banana"];
+fruits.unshift("orange");                   // Add the beginning values in array use unshift methods.
+console.log(fruits);
+
+let fruits = ["apple","banana"];
+fruits.pop();                   // Remove values in array use pop methods.
+console.log(fruits);
+
+let fruits = ["apple","banana"];
+console.log(fruits.includes("apple"));                   // Check values exits in array. Use Includes method
+
+let fruits = ["apple","banana"];
+fruits.splice(1,1);                                      // remove specific values in array use splice methods.
+console.log(fruits);
+
+
+//  Now Start Array manipulation powerful tools is slice(), splice(), reverse(), sort()
+
+let numbers = [10,20,30];
